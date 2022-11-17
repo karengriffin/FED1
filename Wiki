@@ -4,11 +4,27 @@
     <meta https-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
     <title>Karen - Things I Like</title>
-    <p1>Karen - Things I Like</p1>
+    <h1>Karen - Things I Like</h1>
     <nav>
       <a href="">Cooking</a> | <a href="">Hair</a> |
       <a href="">House Hunting</a> |
     </nav>
+    <section>
+      <h2>Cooking</h2>
+      <p>
+        So my favorite thing in the world to do is cook. It's relaxing and
+        dinner time has become sacred in my house. I started cooking because I
+        loved to eat, and I started really experiencing around my mid-20's. I'll
+        cook the same thing a thousand times if that's what it takes to get it
+        right.
+      </p>
+      <h3>Three things I love to cook:</h3>
+      <ul>
+        <li>Steak</li>
+        <li>Oxtail</li>
+        <li>Raw Tuna</li>
+      </ul>
+    </section>
   </head>
   <body></body>
 </html>
