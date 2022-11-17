@@ -4,6 +4,8 @@
     <meta https-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
     <title>Karen - Things I Like</title>
+  </head>
+  <body>
     <h1>Karen - Things I Like</h1>
     <nav>
       <a href="">Cooking</a> | <a href="">Hair</a> |
@@ -29,6 +31,5 @@
         alt="steak and rice and arugula tomato salad"
       />
     </section>
-  </head>
-  <body></body>
+  </body>
 </html>
