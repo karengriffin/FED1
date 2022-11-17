@@ -24,6 +24,10 @@
         <li>Oxtail</li>
         <li>Raw Tuna</li>
       </ul>
+      <img
+        src="/Users/karengriffin/FED1/IMG_1611.JPG"
+        alt="steak and rice and arugula tomato salad"
+      />
     </section>
   </head>
   <body></body>
