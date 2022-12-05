@@ -1,0 +1,25 @@
+@import url('https://fonts.google.com/specimen/Inter');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: hsl(233, 47%, 7%);
+}
+
+.container {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  background-color: hsl(244, 38%, 16%);
+  display: grid;
+}
