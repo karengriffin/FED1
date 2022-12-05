@@ -65,7 +65,7 @@ body {
 
 .subtitle {
   color: hsla(0, 0%, 100%, 0.75);
-  line-height: 1.8;
+  line-height: 25px;
 }
 
 .statistics {
@@ -78,7 +78,7 @@ body {
 .statistics p.stat {
   color: hsl(0, 0%, 100%);
   font-size: 25px;
-  font-weight: 700px;
+  font-weight: 700;
   margin-bottom: 7px;
 }
 
@@ -86,28 +86,53 @@ body {
   color: hsla(0, 0%, 100%, 0.6);
 }
 
-@media only screen and (max-width: 425px) {
-    body {
-        text-align: center;
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    .wrapper{
-     grid-template-columns: 1fr;
-    }
+@media only screen and (max-width: 768px) and (min-width: 390px) {
+  body {
+    font-size: 15px;
+  }
+  .text-section {
+    padding: 12%;
+  }
+  .title {
+    font-size: 22px;
+  }
 
-    .image-field {
-     order: -1;
-    }
+  .statistics {
+    padding-top: 30px;
+  }
+  .statistics p.stat {
+    font-size: 24px;
+  }
+}
 
-    .text-section {
-     padding: 12% 8%;
-    }
+@media only screen and (max-width: 450px) {
+  body {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
 
-    .statistics {
-     flex-direction: column;
-    }
+  .image-field {
+    order: -1;
+  }
 
-    .statistics div {
-      margin-top: 20px;
-    }
+  .text-section {
+    padding: 12% 8%;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .statistics {
+    flex-direction: column;
+    padding-top: 30px;
+  }
+
+  .statistics div {
+    margin-top: 20px;
+  }
+}
