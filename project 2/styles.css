@@ -91,10 +91,6 @@ body {
         text-align: center;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 20vh 60vh 20vh;
-        grid-template-areas: ". . . ."
-        ". text img ."
-        ". . . .";
     }
     .wrapper{
      grid-template-columns: 1fr;
